@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Security Decision Framework</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-container">
+        <aside class="sidebar">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html"><img src="images/cyber_lg.png" alt="Cyber Security Guide Logo" class="logo-image"></a>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li class="nav-heading">BACKGROUND</li>
+                    <li><a href="fundamentals.html">What is Cyber Security?</a></li>
+                    <li><a href="threats.html">Common Threats</a></li>
+                    <li class="nav-heading">USING THE GUIDE</li>
+                    <li><a href="index.html">Cyber Security Guide</a></li>
+                    <li><a href="recommendations.html">Recommendations</a></li>
+                    <li class="nav-heading">FURTHER INFORMATION</li>
+                    <li><a href="best-practices.html">Best Practices</a></li>
+                    <li><a href="resources.html">Additional Resources</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li class="nav-heading">PRIVACY</li>
+                    <li><a href="#">Cookie Policy</a></li>
+                    <li><a href="#">Privacy Notice</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <main class="content">
+            <h1>Cyber Security Guide</h1>
+            <p>The guide below is a question-based flowchart to aid decision-makers in thinking through their organization's cyber security posture and potential need for cyber insurance.</p>
+            <p>The guide aims not to be overly prescriptive and does not claim to cover all use-cases. Rather, it seeks to support decision-making by helping the user explore which actions could be beneficial to their use case. Whether a particular solution is suitable will depend on the specific context, and results from the Guide should be read as suggestions to explore rather than definitive solutions.</p>
+            <p>It is also important to understand that using an individual tool or control does not in itself guarantee security unless accompanied by a good overall security design and appropriate governance. You can explore good practices <a href="#">here</a>.</p>
+
+            <h2>Using the guide</h2>
+            <ul>
+                <li>The guide is primarily aimed at business owners, IT managers, and decision-makers.</li>
+                <li>Answer the questions that appear in the decision tree by clicking on the box containing the appropriate answer. Do this until you reach an end node which will suggest a course of action.</li>
+                <li>Each end node can be clicked to lead to a page that describes the suggested action in more detail.</li>
+                <li>You can explore the whole decision tree structure by clicking to expand the various different nodes in the tree.</li>
+                <li>Click and drag within the black box to pan through the tree diagram, and use your mouse wheel or trackpad to zoom in and out.</li>
+            </ul>
+
+            <div id="chart-container"></div>
+        </main>
+    </div>
+
+    <footer>
+        <p>All content is available under the Open Government License v3.0 except where otherwise stated.</p>
+    </footer>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

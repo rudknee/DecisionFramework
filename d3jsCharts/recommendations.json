@@ -1,0 +1,41 @@
+[
+    {
+        "id": "strengthen-controls",
+        "title": "Strengthen Cyber Security Controls",
+        "description": "This involves implementing or improving technical measures to protect your systems and data. Key areas include:",
+        "actions": [
+            "<strong>Access Control:</strong> Ensure that users only have access to the information and systems necessary for their roles. Implement strong password policies and consider multi-factor authentication (MFA).",
+            "<strong>Firewalls and Network Security:</strong> Use firewalls to control network traffic and segment your network to isolate critical systems.",
+            "<strong>Endpoint Protection:</strong> Install and maintain anti-malware software on all computers and servers.",
+            "<strong>Patch Management:</strong> Regularly update all software, including operating systems and applications, to protect against known vulnerabilities."
+        ]
+    },
+    {
+        "id": "cyber-hygiene",
+        "title": "Develop or Obtain Basic Cyber Hygiene and Assessment Tools",
+        "description": "Good cyber hygiene is the foundation of a strong security posture. This includes:",
+        "actions": [
+            "<strong>Regular Backups:</strong> Create regular backups of important data and test your ability to restore from them.",
+            "<strong>Security Awareness Training:</strong> Educate employees about common threats like phishing and how to recognize and report them.",
+            "<strong>Vulnerability Scanning:</strong> Use tools to scan your systems for vulnerabilities and address them promptly."
+        ]
+    },
+    {
+        "id": "get-insurance",
+        "title": "Obtain Cyber Insurance",
+        "description": "Cyber insurance can help mitigate the financial impact of a cyber attack. It can cover costs related to:",
+        "actions": [
+            "Data recovery and system restoration",
+            "Incident response and forensic analysis",
+            "Legal fees and regulatory fines",
+            "Business interruption"
+        ],
+        "summary": "Consult with a qualified insurance broker to understand the options and find a policy that fits your needs."
+    },
+    {
+        "id": "cyber-essentials",
+        "title": "Work Towards Cyber Essentials Certification",
+        "description": "Cyber Essentials is a UK government-backed scheme that helps you to protect your organization against a whole range of the most common cyber attacks. It demonstrates that you have key technical controls in place and can give you a competitive advantage. Many certifications also come with free cyber insurance.",
+        "actions": []
+    }
+] 
