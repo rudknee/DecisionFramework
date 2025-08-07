@@ -1,41 +1,133 @@
 [
     {
-        "id": "strengthen-controls",
-        "title": "Strengthen Cyber Security Controls",
-        "description": "This involves implementing or improving technical measures to protect your systems and data. Key areas include:",
+        "id": "buy-cyber-insurance-essentials",
+        "title": "🛡️ Buy cyber insurance or obtain free cyber insurance if you are cyber essentials certified.",
+        "description": "Since you are Cyber Essentials certified, you may be eligible for free cyber insurance as part of your certification package.",
         "actions": [
-            "<strong>Access Control:</strong> Ensure that users only have access to the information and systems necessary for their roles. Implement strong password policies and consider multi-factor authentication (MFA).",
-            "<strong>Firewalls and Network Security:</strong> Use firewalls to control network traffic and segment your network to isolate critical systems.",
-            "<strong>Endpoint Protection:</strong> Install and maintain anti-malware software on all computers and servers.",
-            "<strong>Patch Management:</strong> Regularly update all software, including operating systems and applications, to protect against known vulnerabilities."
+            "Contact your Cyber Essentials certification body to inquire about free insurance options",
+            "Review the terms and coverage of the free insurance offer",
+            "Consider additional coverage if needed for your specific business risks"
         ]
     },
     {
-        "id": "cyber-hygiene",
-        "title": "Develop or Obtain Basic Cyber Hygiene and Assessment Tools",
-        "description": "Good cyber hygiene is the foundation of a strong security posture. This includes:",
+        "id": "work-towards-cyber-essentials",
+        "title": "🏆 Work towards Cyber Essentials certification and take advantage of the insurance package.",
+        "description": "Cyber Essentials certification provides both security benefits and often includes free cyber insurance.",
         "actions": [
-            "<strong>Regular Backups:</strong> Create regular backups of important data and test your ability to restore from them.",
-            "<strong>Security Awareness Training:</strong> Educate employees about common threats like phishing and how to recognize and report them.",
-            "<strong>Vulnerability Scanning:</strong> Use tools to scan your systems for vulnerabilities and address them promptly."
+            "Contact a Cyber Essentials certification body",
+            "Complete the self-assessment questionnaire",
+            "Implement required security controls",
+            "Apply for certification and free insurance package"
         ]
     },
     {
-        "id": "get-insurance",
-        "title": "Obtain Cyber Insurance",
-        "description": "Cyber insurance can help mitigate the financial impact of a cyber attack. It can cover costs related to:",
+        "id": "strengthen-controls-before-insurance",
+        "title": "🔒 Strengthen cyber security controls before considering insurance.",
+        "description": "Focus on improving your security posture before investing in insurance coverage.",
         "actions": [
-            "Data recovery and system restoration",
-            "Incident response and forensic analysis",
-            "Legal fees and regulatory fines",
-            "Business interruption"
-        ],
-        "summary": "Consult with a qualified insurance broker to understand the options and find a policy that fits your needs."
+            "Implement basic security controls like firewalls and antivirus",
+            "Establish access control policies",
+            "Create regular backup procedures",
+            "Train staff on security awareness"
+        ]
     },
     {
-        "id": "cyber-essentials",
-        "title": "Work Towards Cyber Essentials Certification",
-        "description": "Cyber Essentials is a UK government-backed scheme that helps you to protect your organization against a whole range of the most common cyber attacks. It demonstrates that you have key technical controls in place and can give you a competitive advantage. Many certifications also come with free cyber insurance.",
-        "actions": []
+        "id": "obtain-insurance",
+        "title": "📋 Obtain insurance.",
+        "description": "Purchase cyber insurance to protect against financial losses from cyber incidents.",
+        "actions": [
+            "Research different cyber insurance providers",
+            "Compare coverage options and premiums",
+            "Consult with an insurance broker",
+            "Select a policy that fits your business needs"
+        ]
+    },
+    {
+        "id": "continuous-cyber-assessment",
+        "title": "🔍 Carry out continuous evaluation and assessment of your cyber threats.",
+        "description": "Regularly assess and monitor your cyber security posture to identify and address threats.",
+        "actions": [
+            "Conduct regular security assessments",
+            "Monitor systems for suspicious activity",
+            "Keep threat intelligence updated",
+            "Review and update security policies regularly"
+        ]
+    },
+    {
+        "id": "develop-cyber-hygiene",
+        "title": "🧹 Develop or obtain basic cyber hygiene and assessment tools.",
+        "description": "Establish fundamental cyber security practices and tools to protect your business.",
+        "actions": [
+            "Implement basic security tools and software",
+            "Create security policies and procedures",
+            "Train employees on cyber hygiene practices",
+            "Establish regular security monitoring"
+        ]
+    },
+    {
+        "id": "strengthen-cyber-controls",
+        "title": "🛡️ Strengthen cyber security controls.",
+        "description": "Enhance your existing security measures to better protect against cyber threats.",
+        "actions": [
+            "Review current security controls",
+            "Identify gaps in your security posture",
+            "Implement additional security measures",
+            "Regularly test and update controls"
+        ]
+    },
+    {
+        "id": "obtain-cyber-insurance-fortify",
+        "title": "🛡️ Obtain cyber insurance to fortify your cyber posture.",
+        "description": "Cyber insurance provides financial protection and often includes incident response services.",
+        "actions": [
+            "Research cyber insurance options",
+            "Consult with insurance brokers",
+            "Compare coverage and costs",
+            "Select appropriate coverage for your business"
+        ]
+    },
+    {
+        "id": "consult-broker",
+        "title": "👨‍💼 Consult a broker to learn the insurance options and costs.",
+        "description": "An insurance broker can help you understand available cyber insurance options and find the best fit.",
+        "actions": [
+            "Find a qualified cyber insurance broker",
+            "Schedule a consultation to discuss your needs",
+            "Review different policy options",
+            "Understand coverage limits and exclusions"
+        ]
+    },
+    {
+        "id": "test-recovery-plan",
+        "title": "🧪 Test your recovery plan before making a conclusion.",
+        "description": "Validate your incident response and recovery procedures through testing and simulation.",
+        "actions": [
+            "Conduct tabletop exercises",
+            "Test backup and recovery procedures",
+            "Simulate cyber attack scenarios",
+            "Update plans based on test results"
+        ]
+    },
+    {
+        "id": "strengthen-monitor-controls",
+        "title": "📊 Strengthen and monitor existing cyber security controls.",
+        "description": "Enhance your current security measures and implement continuous monitoring.",
+        "actions": [
+            "Audit existing security controls",
+            "Implement monitoring and alerting systems",
+            "Strengthen weak security areas",
+            "Establish regular security reviews"
+        ]
+    },
+    {
+        "id": "no-cyber-insurance-needed",
+        "title": "✅ You do not need cyber insurance.",
+        "description": "Based on your current technology usage and risk profile, cyber insurance is not necessary at this time.",
+        "actions": [
+            "Continue with current business operations",
+            "Monitor for changes in technology usage",
+            "Reassess if you expand digital operations",
+            "Maintain basic security awareness"
+        ]
     }
 ] 

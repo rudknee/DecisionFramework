@@ -30,7 +30,7 @@
                                                             "name": "Buy cyber insurance or obtain free cyber insurance if you are cyber essentials certified.",
                                                             "type": "outcome",
                                                             "url": "recommendations.html",
-                                                            "recommendations": ["get-insurance", "cyber-essentials"]
+                                                            "recommendations": ["buy-cyber-insurance-essentials"]
                                                         }
                                                     ]
                                                 },
@@ -46,7 +46,7 @@
                                                                     "name": "Work towards Cyber Essentials certification and take advantage of the insurance package.",
                                                                     "type": "outcome",
                                                                     "url": "recommendations.html",
-                                                                    "recommendations": ["cyber-essentials", "get-insurance"]
+                                                                    "recommendations": ["work-towards-cyber-essentials"]
                                                                 }
                                                             ]
                                                         },
@@ -58,7 +58,7 @@
                                                                     "name": "Strengthen cyber security controls before considering insurance.",
                                                                     "type": "outcome",
                                                                     "url": "recommendations.html",
-                                                                    "recommendations": ["strengthen-controls"]
+                                                                    "recommendations": ["strengthen-controls-before-insurance"]
                                                                 }
                                                             ]
                                                         }
@@ -78,7 +78,7 @@
                                                             "name": "Obtain insurance",
                                                             "type": "outcome",
                                                             "url": "recommendations.html",
-                                                            "recommendations": ["get-insurance"]
+                                                            "recommendations": ["obtain-insurance"]
                                                         }
                                                     ]
                                                 },
@@ -90,7 +90,7 @@
                                                             "name": "Carry out continuous evaluation and assessment of your cyber threats.",
                                                             "type": "outcome",
                                                             "url": "recommendations.html",
-                                                            "recommendations": ["cyber-hygiene"]
+                                                            "recommendations": ["continuous-cyber-assessment"]
                                                         }
                                                     ]
                                                 }
@@ -106,7 +106,7 @@
                                             "name": "Carry out continuous evaluation and assessment of your cyber threats.",
                                             "type": "outcome",
                                             "url": "recommendations.html",
-                                            "recommendations": ["cyber-hygiene"]
+                                            "recommendations": ["continuous-cyber-assessment"]
                                         }
                                     ]
                                 }
@@ -120,7 +120,7 @@
                                     "name": "Develop or obtain basic cyber hygiene and assessment tools.",
                                     "type": "outcome",
                                     "url": "recommendations.html",
-                                    "recommendations": ["cyber-hygiene"]
+                                    "recommendations": ["develop-cyber-hygiene"]
                                 }
                             ]
                         }
@@ -146,7 +146,7 @@
                                                     "name": "Strengthen cyber security controls.",
                                                     "type": "outcome",
                                                     "url": "recommendations.html",
-                                                    "recommendations": ["strengthen-controls"]
+                                                    "recommendations": ["strengthen-cyber-controls"]
                                                 }
                                             ]
                                         },
@@ -166,7 +166,7 @@
                                                                     "name": "Obtain cyber insurance to fortify your cyber posture",
                                                                     "type": "outcome",
                                                                     "url": "recommendations.html",
-                                                                    "recommendations": ["get-insurance"]
+                                                                    "recommendations": ["obtain-cyber-insurance-fortify"]
                                                                 }
                                                             ]
                                                         },
@@ -178,7 +178,7 @@
                                                                     "name": "Strengthen cyber security controls before considering insurance.",
                                                                     "type": "outcome",
                                                                     "url": "recommendations.html",
-                                                                    "recommendations": ["strengthen-controls"]
+                                                                    "recommendations": ["strengthen-controls-before-insurance"]
                                                                 }
                                                             ]
                                                         }
@@ -192,7 +192,7 @@
                                                             "name": "Consult a broker to learn the insurance options and costs.",
                                                             "type": "outcome",
                                                             "url": "recommendations.html",
-                                                            "recommendations": ["get-insurance"]
+                                                            "recommendations": ["consult-broker"]
                                                         }
                                                     ]
                                                 }
@@ -220,7 +220,7 @@
                                                                     "name": "Obtain cyber insurance to fortify your cyber posture",
                                                                     "type": "outcome",
                                                                     "url": "recommendations.html",
-                                                                    "recommendations": ["get-insurance"]
+                                                                    "recommendations": ["obtain-cyber-insurance-fortify"]
                                                                 }
                                                             ]
                                                         },
@@ -232,7 +232,7 @@
                                                                     "name": "Carry out continuous evaluation and assessment of your cyber threats.",
                                                                     "type": "outcome",
                                                                     "url": "recommendations.html",
-                                                                    "recommendations": ["cyber-hygiene"]
+                                                                    "recommendations": ["continuous-cyber-assessment"]
                                                                 }
                                                             ]
                                                         }
@@ -254,7 +254,7 @@
                                                                             "name": "Obtain cyber insurance to fortify your cyber posture",
                                                                             "type": "outcome",
                                                                             "url": "recommendations.html",
-                                                                            "recommendations": ["get-insurance"]
+                                                                            "recommendations": ["obtain-cyber-insurance-fortify"]
                                                                         }
                                                                     ]
                                                                 },
@@ -266,7 +266,7 @@
                                                                             "name": "Strengthen and monitor existing cyber security controls",
                                                                             "type": "outcome",
                                                                             "url": "recommendations.html",
-                                                                            "recommendations": ["strengthen-controls"]
+                                                                            "recommendations": ["strengthen-monitor-controls"]
                                                                         }
                                                                     ]
                                                                 }
@@ -280,7 +280,7 @@
                                                                     "name": "Consult a broker to learn the insurance options and costs.",
                                                                     "type": "outcome",
                                                                     "url": "recommendations.html",
-                                                                    "recommendations": ["get-insurance"]
+                                                                    "recommendations": ["consult-broker"]
                                                                 }
                                                             ]
                                                         }
@@ -295,7 +295,8 @@
                                                 {
                                                     "name": "Test your recovery plan before making a conclusion",
                                                     "type": "outcome",
-                                                    "url": "recommendations.html"
+                                                    "url": "recommendations.html",
+                                                    "recommendations":["test-recovery-plan"]
                                                 }
                                             ]
                                         }
@@ -319,7 +320,7 @@
                                                     "name": "Strengthen cyber security controls.",
                                                     "type": "outcome",
                                                     "url": "recommendations.html",
-                                                    "recommendations": ["strengthen-controls"]
+                                                    "recommendations": ["strengthen-cyber-controls"]
                                                 }
                                             ]
                                         },
@@ -339,7 +340,7 @@
                                                                     "name": "Obtain cyber insurance to fortify your cyber posture",
                                                                     "type": "outcome",
                                                                     "url": "recommendations.html",
-                                                                    "recommendations": ["get-insurance"]
+                                                                    "recommendations": ["obtain-cyber-insurance-fortify"]
                                                                 }
                                                             ]
                                                         },
@@ -351,7 +352,7 @@
                                                                     "name": "Strengthen cyber security controls before considering insurance.",
                                                                     "type": "outcome",
                                                                     "url": "recommendations.html",
-                                                                    "recommendations": ["strengthen-controls"]
+                                                                    "recommendations": ["strengthen-controls-before-insurance"]
                                                                 }
                                                             ]
                                                         }
@@ -365,7 +366,7 @@
                                                             "name": "Consult a broker to learn the insurance options and costs.",
                                                             "type": "outcome",
                                                             "url": "recommendations.html",
-                                                            "recommendations": ["get-insurance"]
+                                                            "recommendations": ["consult-broker"]
                                                         }
                                                     ]
                                                 }
@@ -393,7 +394,7 @@
                                                                     "name": "Obtain cyber insurance to fortify your cyber posture",
                                                                     "type": "outcome",
                                                                     "url": "recommendations.html",
-                                                                    "recommendations": ["get-insurance"]
+                                                                    "recommendations": ["obtain-cyber-insurance-fortify"]
                                                                 }
                                                             ]
                                                         },
@@ -405,7 +406,7 @@
                                                                     "name": "Carry out continuous evaluation and assessment of your cyber threats.",
                                                                     "type": "outcome",
                                                                     "url": "recommendations.html",
-                                                                    "recommendations": ["cyber-hygiene"]
+                                                                    "recommendations": ["continuous-cyber-assessment"]
                                                                 }
                                                             ]
                                                         }
@@ -427,7 +428,7 @@
                                                                             "name": "Obtain cyber insurance to fortify your cyber posture",
                                                                             "type": "outcome",
                                                                             "url": "recommendations.html",
-                                                                            "recommendations": ["get-insurance"]
+                                                                            "recommendations": ["obtain-cyber-insurance-fortify"]
                                                                         }
                                                                     ]
                                                                 },
@@ -439,7 +440,7 @@
                                                                             "name": "Strengthen and monitor existing cyber security controls",
                                                                             "type": "outcome",
                                                                             "url": "recommendations.html",
-                                                                            "recommendations": ["strengthen-controls"]
+                                                                            "recommendations": ["strengthen-monitor-controls"]
                                                                         }
                                                                     ]
                                                                 }
@@ -453,7 +454,7 @@
                                                                     "name": "Consult a broker to learn the insurance options and costs.",
                                                                     "type": "outcome",
                                                                     "url": "recommendations.html",
-                                                                    "recommendations": ["get-insurance"]
+                                                                    "recommendations": ["consult-broker"]
                                                                 }
                                                             ]
                                                         }
@@ -468,7 +469,8 @@
                                                 {
                                                     "name": "Test your recovery plan before making a conclusion",
                                                     "type": "outcome",
-                                                    "url": "recommendations.html"
+                                                    "url": "recommendations.html",
+                                                    "recommendations": ["test-recovery-plan"]
                                                 }
                                             ]
                                         }
@@ -487,7 +489,8 @@
                 {
                     "name": "You do not need cyber insurance.",
                     "type": "outcome",
-                    "url": "recommendations.html"
+                    "url": "recommendations.html",
+                    "recommendations": ["no-cyber-insurance-needed"]
                 }
             ]
         }
