@@ -38,29 +38,77 @@
             <h1>Common Cyber Security Threats</h1>
             <p>Understanding the threats you face is the first step to protecting your organization. Here are some of the most common types of cyber attacks:</p>
 
-            <div class="threat">
-                <h2>Phishing</h2>
-                <p>Phishing attacks are fraudulent attempts, usually made through email, to steal sensitive information like usernames, passwords, and credit card details. Attackers disguise themselves as a trustworthy entity to trick the victim into opening a malicious link or attachment.</p>
-                <p><strong>Defense:</strong> Employee training is key. Teach your staff to be suspicious of unsolicited emails, to check sender addresses, and to avoid clicking on links or downloading attachments from unknown sources. Use email filters to block spam and phishing attempts.</p>
-            </div>
+<div class="threat">
+  <h2>Phishing & Social Engineering</h2>
+  <p>Phishing attacks are fraudulent attempts—via email, SMS, phone, or social media—to trick people into revealing sensitive information or installing malware. Attackers impersonate trusted brands or colleagues and use urgent language to push quick action.</p>
+  <p><strong>Defense:</strong> Train staff to verify unusual requests through a separate channel, inspect sender details and links, and report suspicious messages. Use email filtering, safe-link scanning, and block known malicious domains.</p>
+</div>
 
-            <div class="threat">
-                <h2>Malware</h2>
-                <p>Malware, short for malicious software, is a broad term for any software intentionally designed to cause damage to a computer, server, client, or computer network. This includes viruses, worms, trojan horses, and spyware.</p>
-                <p><strong>Defense:</strong> Use reputable anti-malware and antivirus software on all systems. Keep software and operating systems updated to patch vulnerabilities that malware often exploits. Be cautious about downloading files from the internet.</p>
-            </div>
+<div class="threat">
+  <h2>Ransomware</h2>
+  <p>Ransomware is malicious software that encrypts company data and demands payment for decryption. It can halt operations, cause data loss, and trigger reputational and regulatory consequences.</p>
+  <p><strong>Defense:</strong> Keep offline/immutable backups, patch systems promptly, restrict admin rights, and use endpoint protection with behavior-based detection. Drill an incident response plan and test restore procedures regularly.</p>
+</div>
 
-            <div class="threat">
-                <h2>Ransomware</h2>
-                <p>Ransomware is a type of malware that encrypts a victim's files. The attacker then demands a ransom from the victim to restore access to the data upon payment.</p>
-                <p><strong>Defense:</strong> The best defense is a robust backup strategy. Regularly back up all important data to an offsite location and test the backups to ensure they can be restored. This way, you can recover your data without paying a ransom.</p>
-            </div>
+<div class="threat">
+  <h2>Business Email Compromise (BEC)</h2>
+  <p>BEC scams impersonate executives, suppliers, or partners to trick staff into approving payments or sharing sensitive data. Messages often look legitimate and may contain no malware.</p>
+  <p><strong>Defense:</strong> Require multi-person approvals for payments and changes to bank details, verify by phone using known numbers, and implement SPF, DKIM, and DMARC to reduce spoofing.</p>
+</div>
 
-            <div class="threat">
-                <h2>Denial-of-Service (DoS) Attacks</h2>
-                <p>A Denial-of-Service attack floods a system's resources so that it cannot respond to legitimate service requests. A Distributed Denial-of-Service (DDoS) attack is a DoS attack that uses multiple compromised computer systems as sources of attack traffic.</p>
-                <p><strong>Defense:</strong> Use a firewall and consider a DDoS mitigation service from your internet service provider or a cloud provider. These services can detect and filter out malicious traffic before it reaches your network.</p>
-            </div>
+<div class="threat">
+  <h2>Weak or Stolen Passwords</h2>
+  <p>Weak, default, or reused passwords allow attackers to guess access or reuse leaked credentials from other breaches (credential stuffing) to enter business systems.</p>
+  <p><strong>Defense:</strong> Enforce strong, unique passwords with a password manager and require multi-factor authentication (MFA) on all critical systems and accounts.</p>
+</div>
+
+<div class="threat">
+  <h2>Malware & Viruses</h2>
+  <p>Malware such as trojans, spyware, and worms can steal data, monitor activity, or disrupt operations. It often arrives via malicious attachments, drive-by downloads, or infected USB devices.</p>
+  <p><strong>Defense:</strong> Deploy reputable endpoint protection, block unauthorized apps, disable autorun for removable media, and limit software installation to approved sources.</p>
+</div>
+
+<div class="threat">
+  <h2>Insider Threats</h2>
+  <p>Insiders—employees, contractors, or partners—may misuse access intentionally (theft, sabotage) or accidentally (mistakes that expose data), causing significant harm.</p>
+  <p><strong>Defense:</strong> Apply least-privilege access, monitor activity on sensitive systems, separate duties for high-risk tasks, and ensure thorough onboarding/offboarding processes.</p>
+</div>
+
+<div class="threat">
+  <h2>Supply Chain Attacks</h2>
+  <p>Attackers compromise trusted vendors, software updates, or managed service providers to gain indirect access to your systems and data.</p>
+  <p><strong>Defense:</strong> Assess vendors’ security, include security clauses in contracts, monitor third-party access, and keep supplier-provided software promptly updated.</p>
+</div>
+
+<div class="threat">
+  <h2>Cloud & SaaS Misconfigurations</h2>
+  <p>Misconfigured cloud storage or lax SaaS permissions can expose sensitive information or enable unauthorized access to business data and integrations.</p>
+  <p><strong>Defense:</strong> Use strong access controls and MFA, regularly audit configurations (CIS benchmarks), enable encryption at rest/in transit, and log/monitor admin actions.</p>
+</div>
+
+<div class="threat">
+  <h2>Denial-of-Service (DoS/DDoS)</h2>
+  <p>DoS/DDoS attacks overwhelm websites or online services with traffic, making them unreachable and potentially masking other intrusions.</p>
+  <p><strong>Defense:</strong> Use hosting/CDN providers with DDoS protection, deploy a Web Application Firewall (WAF), and prepare a service continuity and communication plan.</p>
+</div>
+
+<div class="threat">
+  <h2>Unpatched & Outdated Software</h2>
+  <p>Known vulnerabilities in unpatched operating systems, applications, or network devices provide easy entry points for attackers.</p>
+  <p><strong>Defense:</strong> Maintain an asset and patch inventory, enable automatic updates where safe, prioritize critical patches, and regularly scan for vulnerabilities.</p>
+</div>
+
+<div class="threat">
+  <h2>Mobile & Remote Work Risks</h2>
+  <p>Personal or poorly secured devices and home networks broaden the attack surface. Lost or stolen devices may expose business data.</p>
+  <p><strong>Defense:</strong> Enforce device encryption, screen locks, and remote wipe. Require VPN for remote access, manage devices (MDM/EMM), and install endpoint protection.</p>
+</div>
+
+<div class="threat">
+  <h2>Data Breaches</h2>
+  <p>Unauthorized access to customer, employee, or financial data can lead to financial loss, legal penalties, and reputational damage.</p>
+  <p><strong>Defense:</strong> Classify and encrypt sensitive data, restrict access on a need-to-know basis, monitor for anomalies, and maintain a tested incident response and notification plan.</p>
+</div>
         </main>
     </div>
 
