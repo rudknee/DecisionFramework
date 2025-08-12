@@ -67,7 +67,7 @@
                                             ]
                                         },
                                         {
-                                            "name": "We don't deal with customer information that's very private or sensitive.",
+                                            "name": "We don't deal with customer information that's private or sensitive.",
                                             "type": "decision",
                                             "children": [
                                                 {
