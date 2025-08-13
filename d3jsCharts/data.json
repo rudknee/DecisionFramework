@@ -55,7 +55,7 @@
                                                             "type": "answer",
                                                             "children": [
                                                                 {
-                                                                    "name": "Strengthen cyber security controls before considering insurance.",
+                                                                    "name": "Strengthen your cyber security controls before considering insurance.",
                                                                     "type": "outcome",
                                                                     "url": "recommendations.html",
                                                                     "recommendations": ["strengthen-controls-before-insurance"]
