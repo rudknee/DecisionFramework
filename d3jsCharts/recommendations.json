@@ -128,6 +128,7 @@
             "Monitor for changes in technology usage",
             "Reassess if you expand digital operations",
             "Maintain basic security awareness"
-        ]
+        ],
+        "link" : " For more information visit this <a href='https://microsoft.com' target='_blank' >link</a>"
     }
 ] 

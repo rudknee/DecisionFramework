@@ -289,6 +289,9 @@ function renderDecisionTree(chartContainer, recommendationsContainer) {
                     if (rec.summary) {
                         html += `<p>${rec.summary}</p>`;
                     }
+                    if (rec.link){
+                        html += `<p>${rec.link}</p>`;
+                    }
                     html += '</div>';
                 });
                 recommendationsContainer.innerHTML = html;
