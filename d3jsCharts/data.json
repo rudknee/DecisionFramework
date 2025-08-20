@@ -487,7 +487,7 @@
             "type": "answer",
             "children": [
                 {
-                    "name": "You do not need cyber insurance.",
+                    "name": "Cyber insurance may not be a priority at this point.",
                     "type": "outcome",
                     "url": "recommendations.html",
                     "recommendations": ["no-cyber-insurance-needed"]

@@ -120,13 +120,13 @@ function renderDecisionTree(chartContainer, recommendationsContainer) {
                 .style("fill", d => {
                     if (onRecommendationsPage && pathSet.has(d.data.uniqueId)) return '#007bff';
                     if (d.data.type === 'decision') return '#fdeceb';
-                    if (d.data.type === 'outcome') return '#fffbe6';
+                    if (d.data.type === 'outcome') return '#77e9c3ff';
                     return '#fdeceb';
                 })
                 .style('stroke', d => {
                     if (onRecommendationsPage && pathSet.has(d.data.uniqueId)) return '#0056b3';
                     if (d.data.type === 'decision') return '#f0453a';
-                    if (d.data.type === 'outcome') return '#ffe200';
+                    if (d.data.type === 'outcome') return '#00ffaaff';
                     return '#f0453a';
                 })
                 .style('stroke-width', '2.5px');

@@ -5,7 +5,7 @@
         "description": "Since you are Cyber Essentials certified, you may be eligible for free cyber insurance as part of your certification package.",
         "actions": [
             "Contact your Cyber Essentials certification body to inquire about free insurance options",
-            "Review the terms and coverage of the free insurance offer",
+            "Review the terms and coverage of the free insurance offer to  determine whether it aligns with your business needs",
             "Consider additional coverage if needed for your specific business risks"
         ]
     },
@@ -121,7 +121,7 @@
     },
     {
         "id": "no-cyber-insurance-needed",
-        "title": "✅ You do not need cyber insurance.",
+        "title": "✅ Cyber insurance may not be a priority at this point.",
         "description": "Based on your current technology usage and risk profile, cyber insurance is not necessary at this time.",
         "actions": [
             "Continue with current business operations",
