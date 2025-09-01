@@ -19,7 +19,7 @@
                                     "type": "decision",
                                     "children": [
                                         {
-                                            "name": "We keep or handle private customer information like financial or medical details.",
+                                            "name": "We keep or handle sensitive customer information like financial or medical details.",
                                             "type": "decision",
                                             "children": [
                                                 {
@@ -67,7 +67,7 @@
                                             ]
                                         },
                                         {
-                                            "name": "We don't deal with customer information that's private or sensitive.",
+                                            "name": "We don't deal with customer information that's sensitive or sensitive.",
                                             "type": "decision",
                                             "children": [
                                                 {
@@ -201,7 +201,7 @@
                                     ]
                                 },
                                 {
-                                    "name": "We haven't had any cyber-attacks recently.",
+                                    "name": "We haven’t had any security incidents, near-misses, or suspicious activity in the past year.",
                                     "type": "decision",
                                     "children": [
                                         {
@@ -375,7 +375,7 @@
                                     ]
                                 },
                                 {
-                                    "name": "We haven't had any cyber-attacks recently.",
+                                    "name": "We haven’t had any security incidents, near-misses, or suspicious activity in the past year.",
                                     "type": "decision",
                                     "children": [
                                         {

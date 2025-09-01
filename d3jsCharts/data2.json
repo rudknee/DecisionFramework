@@ -101,7 +101,7 @@
             ]
         },
         {
-            "name": "We keep or handle private customer information like financial or medical details",
+            "name": "We keep or handle sensitive customer information like financial or medical details",
             "type": "answer",
             "children": [
                 {
