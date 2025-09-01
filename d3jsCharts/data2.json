@@ -43,7 +43,7 @@
             "type": "answer",
             "children": [
                 {
-                    "name": "We don't use much technology to do our work",
+                    "name": "We do not use technology in our business preparations.",
                     "type": "answer",
                     "children": [
                         {
@@ -53,7 +53,7 @@
                     ]
                 },
                 {
-                    "name": "We rely a lot on things like computers, phones, or the internet",
+                    "name": "We rely on things like computers, phones, or the internet",
                     "type": "answer",
                     "children": [
                         {
