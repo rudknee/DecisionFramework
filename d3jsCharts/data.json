@@ -3,7 +3,7 @@
     "type": "decision",
     "children": [
         {
-            "name": "We rely a lot on things like computers, phones, or the internet to run our business.",
+            "name": "We rely on things like computers, phones, or the internet to run our business.",
             "type": "decision",
             "children": [
                 {
