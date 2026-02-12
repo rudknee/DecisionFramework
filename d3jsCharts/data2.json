@@ -1,0 +1,208 @@
+{
+    "name": "Does your business need cyber insurance or improved security measures?",
+    "type": "decision",
+    "children": [
+        {
+            "name": "My business can afford to pay for cyber insurance",
+            "type": "answer",
+            "children": [
+                {
+                    "name": "We are not planning to get any cyber safety certificates soon",
+                    "type": "answer",
+                    "children": [
+                        {
+                            "name": "Obtain cyber insurance to fortify your cyber posture",
+                            "type": "outcome-purple"
+                        }
+                    ]
+                },
+                {
+                    "name": "We plan to get certified soon",
+                    "type": "answer",
+                    "children": [
+                        {
+                            "name": "Work towards Cyber Essentials certification and take advantage of the insurance package",
+                            "type": "outcome-purple"
+                        }
+                    ]
+                },
+                {
+                    "name": "We already have a certificate like Cyber Essentials",
+                    "type": "answer",
+                    "children": [
+                        {
+                            "name": "Buy cyber insurance or obtain free cyber insurance if you are cyber essentials certified",
+                            "type": "outcome-purple"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "We currently can't afford to pay for cyber insurance",
+            "type": "answer",
+            "children": [
+                {
+                    "name": "We do not use technology in our business preparations.",
+                    "type": "answer",
+                    "children": [
+                        {
+                            "name": "You do not need cyber insurance",
+                            "type": "outcome-purple"
+                        }
+                    ]
+                },
+                {
+                    "name": "We rely on things like computers, phones, or the internet",
+                    "type": "answer",
+                    "children": [
+                        {
+                            "name": "Strengthen cyber security controls before considering insurance",
+                            "type": "outcome-purple"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "I haven't checked what cyber threats could affect my business",
+            "type": "answer",
+            "children": [
+                {
+                    "name": "Carry out continuous evaluation and assessment of your cyber threats",
+                    "type": "outcome-purple"
+                }
+            ]
+        },
+        {
+            "name": "A cyber-attack could seriously harm my business financially",
+            "type": "answer",
+            "children": [
+                {
+                    "name": "We don't have the skills to quickly fix problems caused by a cyber-attack",
+                    "type": "answer",
+                    "children": [
+                        {
+                            "name": "Obtain cyber insurance to fortify your cyber posture",
+                            "type": "outcome-purple"
+                        }
+                    ]
+                },
+                {
+                    "name": "I (or someone in my business) knows enough about IT to fix things",
+                    "type": "answer",
+                    "children": [
+                        {
+                            "name": "Strengthen cyber security controls",
+                            "type": "outcome-purple"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "We keep or handle sensitive customer information like financial or medical details",
+            "type": "answer",
+            "children": [
+                {
+                    "name": "We are required by regulators, clients, or partners to have cyber insurance",
+                    "type": "answer",
+                    "children": [
+                        {
+                            "name": "Consult a broker to learn the insurance options and costs",
+                            "type": "outcome-purple"
+                        }
+                    ]
+                },
+                {
+                    "name": "No one we work with has asked us to get cyber insurance",
+                    "type": "answer",
+                    "children": [
+                        {
+                            "name": "Develop or obtain basic cyber hygiene and assessment tools",
+                            "type": "outcome-purple"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "My business was hit by a cyber-attack in the last year",
+            "type": "answer",
+            "children": [
+                {
+                    "name": "It was really hard to get back on track after the cyber-attack",
+                    "type": "answer",
+                    "children": [
+                        {
+                            "name": "Obtain cyber insurance to fortify your cyber posture",
+                            "type": "outcome-purple"
+                        }
+                    ]
+                },
+                {
+                    "name": "After the attack, we were able to bounce back without too much trouble",
+                    "type": "answer",
+                    "children": [
+                        {
+                            "name": "Test your recovery plan before making a conclusion",
+                            "type": "outcome-purple"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "We have tools or habits that help us spot online threats early",
+            "type": "answer",
+            "children": [
+                {
+                    "name": "We've practiced what to do if we get attacked online",
+                    "type": "answer",
+                    "children": [
+                        {
+                            "name": "Strengthen and monitor existing cyber security controls",
+                            "type": "outcome-purple"
+                        }
+                    ]
+                },
+                {
+                    "name": "We've never tried out our plan for handling a cyber-attack",
+                    "type": "answer",
+                    "children": [
+                        {
+                            "name": "Carry out continuous evaluation and assessment of your cyber threats",
+                            "type": "outcome-purple"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "I've spoken to an insurance expert to learn what options are available",
+            "type": "answer",
+            "children": [
+                {
+                    "name": "I believe my business could be affected by hackers or online threats",
+                    "type": "answer",
+                    "children": [
+                        {
+                            "name": "Obtain cyber insurance to fortify your cyber posture",
+                            "type": "outcome-purple"
+                        }
+                    ]
+                },
+                {
+                    "name": "I've already checked what online threats my business might face",
+                    "type": "answer",
+                    "children": [
+                        {
+                            "name": "Strengthen cyber security controls before considering insurance",
+                            "type": "outcome-purple"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

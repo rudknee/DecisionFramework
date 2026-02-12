@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Common Cyber Security Threats</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-container">
+        <aside class="sidebar">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" alt="Cyber Security Guide Logo" class="logo-image"></a>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li class="nav-heading">BACKGROUND</li>
+                    <li><a href="fundamentals.html">Cyber Insurance 101</a></li>
+                    <li><a href="threats.html">Common Threats</a></li>
+                    <li class="nav-heading">USING THE FRAMEWORK</li>
+                    <li><a href="index.html">Cyber Insurance Decision Framework</a></li>
+                    <li class="nav-heading">FURTHER INFORMATION</li>
+                    <li><a href="best-practices.html">Best Practices</a></li>
+                    <li><a href="FAQs.html">Frequently Asked Questions</a></li>
+                    <li><a href="feedback.html">Contact us</a></li>
+                    <li class="nav-heading">PRIVACY</li>
+                    <li><a href="#">Cookie Policy</a></li>
+                    <li><a href="disclaimer.html">Disclaimer</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <main class="content">
+            <h1>Common Cyber Security Threats</h1>
+            <p>Understanding the threats you face is the first step to protecting your organisation. Here are some of the most common types of cyber attacks:</p>
+
+<div class="threat">
+  <h2>Phishing & Social Engineering</h2>
+  <p>Phishing attacks are fraudulent attempts—via email, SMS, phone, or social media—to trick people into revealing sensitive information or installing malware. Attackers impersonate trusted brands or colleagues and use urgent language to push quick action.</p>
+  <p><strong>Defense:</strong> Train staff to verify unusual requests through a separate channel, inspect sender details and links, and report suspicious messages. Use email filtering, safe-link scanning, and block known malicious domains.</p>
+</div>
+
+<div class="threat">
+  <h2>Ransomware</h2>
+  <p>Ransomware is malicious software that encrypts company data and demands payment for decryption. It can halt operations, cause data loss, and trigger reputational and regulatory consequences.</p>
+  <p><strong>Defense:</strong> Keep offline/immutable backups, patch systems promptly, restrict admin rights, and use endpoint protection with behavior-based detection. Drill an incident response plan and test restore procedures regularly.</p>
+</div>
+
+<div class="threat">
+  <h2>Business Email Compromise (BEC)</h2>
+  <p>BEC scams impersonate executives, suppliers, or partners to trick staff into approving payments or sharing sensitive data. Messages often look legitimate and may contain no malware.</p>
+  <p><strong>Defense:</strong> Require multi-person approvals for payments and changes to bank details, verify by phone using known numbers, and implement Sender Policy Framework (SPF), DomainKeys Identified Mail (DKIM), and Domain-based Message Authentication, Reporting and Conformance (DMARC) to reduce spoofing.</p>
+</div>
+
+<div class="threat">
+  <h2>Weak or Stolen Passwords</h2>
+  <p>Weak, default, or reused passwords allow attackers to guess access or reuse leaked credentials from other breaches (credential stuffing) to enter business systems.</p>
+  <p><strong>Defense:</strong> Enforce strong, unique passwords with a password manager and require multi-factor authentication (MFA) on all critical systems and accounts.</p>
+</div>
+
+<div class="threat">
+  <h2>Malware & Viruses</h2>
+  <p>Malware such as trojans, spyware, and worms can steal data, monitor activity, or disrupt operations. It often arrives via malicious attachments, drive-by downloads, or infected USB devices.</p>
+  <p><strong>Defense:</strong> Deploy reputable endpoint protection, block unauthorised apps, disable autorun for removable media, and limit software installation to approved sources.</p>
+</div>
+
+<div class="threat">
+  <h2>Insider Threats</h2>
+  <p>Insiders—employees, contractors, or partners—may misuse access intentionally (theft, sabotage) or accidentally (mistakes that expose data), causing significant harm.</p>
+  <p><strong>Defense:</strong> Apply least-privilege access, monitor activity on sensitive systems, separate duties for high-risk tasks, and ensure thorough onboarding/offboarding processes.</p>
+</div>
+
+<div class="threat">
+  <h2>Supply Chain Attacks</h2>
+  <p>Attackers compromise trusted vendors, software updates, or managed service providers to gain indirect access to your systems and data.</p>
+  <p><strong>Defense:</strong> Assess vendors’ security, include security clauses in contracts, monitor third-party access, and keep supplier-provided software promptly updated.</p>
+</div>
+
+<div class="threat">
+  <h2>Cloud & SaaS Misconfigurations</h2>
+  <p>Misconfigured cloud storage or lax SaaS permissions can expose sensitive information or enable unauthorised access to business data and integrations.</p>
+  <p><strong>Defense:</strong> Use strong access controls and MFA, regularly audit configurations (CIS benchmarks), enable encryption at rest/in transit, and log/monitor admin actions.</p>
+</div>
+
+<div class="threat">
+  <h2>Denial-of-Service (DoS/DDoS)</h2>
+  <p>DoS/DDoS attacks overwhelm websites or online services with traffic, making them unreachable and potentially masking other intrusions.</p>
+  <p><strong>Defense:</strong> Use hosting/CDN providers with DDoS protection, deploy a Web Application Firewall (WAF), and prepare a service continuity and communication plan.</p>
+</div>
+
+<div class="threat">
+  <h2>Unpatched & Outdated Software</h2>
+  <p>Known vulnerabilities in unpatched operating systems, applications, or network devices provide easy entry points for attackers.</p>
+  <p><strong>Defense:</strong> Maintain an asset and patch inventory, enable automatic updates where safe, prioritise critical patches, and regularly scan for vulnerabilities.</p>
+</div>
+
+<div class="threat">
+  <h2>Mobile & Remote Work Risks</h2>
+  <p>Personal or poorly secured devices and home networks broaden the attack surface. Lost or stolen devices may expose business data.</p>
+  <p><strong>Defense:</strong> Enforce device encryption, screen locks, and remote wipe. Require VPN for remote access, manage devices (MDM/EMM), and install endpoint protection.</p>
+</div>
+
+<div class="threat">
+  <h2>Data Breaches</h2>
+  <p>Unauthorized access to customer, employee, or financial data can lead to financial loss, legal penalties, and reputational damage.</p>
+  <p><strong>Defense:</strong> Classify and encrypt sensitive data, restrict access on a need-to-know basis, monitor for anomalies, and maintain a tested incident response and notification plan.</p>
+</div>
+        </main>
+    </div>
+
+    <footer>
+        <p>SME Cyber Insurance Decision Support Framework v1.0</p>
+    </footer>
+</body>
+</html> 

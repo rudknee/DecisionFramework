@@ -1,0 +1,498 @@
+{
+    "name": "Do you use the internet, email, or cloud services in your business operations?",
+    "type": "decision",
+    "children": [
+        {
+            "name": "We rely on things like computers, phones, or the internet to run our business.",
+            "type": "decision",
+            "children": [
+                {
+                    "name": "I believe my business could be affected by hackers or online threats.",
+                    "type": "decision",
+                    "children": [
+                        {
+                            "name": "We have tools or habits that help us spot online threats early.",
+                            "type": "decision",
+                            "children": [
+                                {
+                                    "name": "A cyber-attack could seriously harm my business financially.",
+                                    "type": "decision",
+                                    "children": [
+                                        {
+                                            "name": "We keep or handle sensitive customer information like financial or medical details.",
+                                            "type": "decision",
+                                            "children": [
+                                                {
+                                                    "name": "We already have a certificate like Cyber Essentials showing we follow basic or advanced cyber safety rules.",
+                                                    "type": "answer",
+                                                    "children": [
+                                                        {
+                                                            "name": "Buy cyber insurance or obtain free cyber insurance if you are cyber essentials certified.",
+                                                            "type": "outcome",
+                                                            "url": "recommendations.html",
+                                                            "recommendations": ["buy-cyber-insurance-essentials"]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "We haven't yet got a certificate for meeting cyber safety standards.",
+                                                    "type": "decision",
+                                                    "children": [
+                                                        {
+                                                            "name": "We plan to get certified soon.",
+                                                            "type": "answer",
+                                                            "children": [
+                                                                {
+                                                                    "name": "Work towards Cyber Essentials certification and take advantage of the insurance package.",
+                                                                    "type": "outcome",
+                                                                    "url": "recommendations.html",
+                                                                    "recommendations": ["work-towards-cyber-essentials"]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "name": "We are not planning to get any cyber safety certificates soon.",
+                                                            "type": "answer",
+                                                            "children": [
+                                                                {
+                                                                    "name": "Strengthen your cyber security controls before considering insurance.",
+                                                                    "type": "outcome",
+                                                                    "url": "recommendations.html",
+                                                                    "recommendations": ["strengthen-controls-before-insurance"]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "We don't deal with customer information that's sensitive or sensitive.",
+                                            "type": "decision",
+                                            "children": [
+                                                {
+                                                    "name": "We are required by regulators, clients, or partners to have cyber insurance.",
+                                                    "type": "answer",
+                                                    "children": [
+                                                        {
+                                                            "name": "Obtain insurance",
+                                                            "type": "outcome",
+                                                            "url": "recommendations.html",
+                                                            "recommendations": ["obtain-insurance"]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "No one we work with has asked us to get cyber insurance.",
+                                                    "type": "answer",
+                                                    "children": [
+                                                        {
+                                                            "name": "Carry out continuous evaluation and assessment of your cyber threats.",
+                                                            "type": "outcome",
+                                                            "url": "recommendations.html",
+                                                            "recommendations": ["continuous-cyber-assessment"]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "A cyber-attack would not cause serious financial damage to my business.",
+                                    "type": "answer",
+                                    "children": [
+                                        {
+                                            "name": "Carry out continuous evaluation and assessment of your cyber threats.",
+                                            "type": "outcome",
+                                            "url": "recommendations.html",
+                                            "recommendations": ["continuous-cyber-assessment"]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "We don't have any tools or routines for spotting cyber risks.",
+                            "type": "answer",
+                            "children": [
+                                {
+                                    "name": "Develop or obtain basic cyber hygiene and assessment tools.",
+                                    "type": "outcome",
+                                    "url": "recommendations.html",
+                                    "recommendations": ["develop-cyber-hygiene"]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "I don't think hackers or online risks are something my business needs to worry about.",
+                    "type": "decision",
+                    "children": [
+                        {
+                            "name": "I've already checked what online threats my business might face, maybe with a checklist or advice from an expert.",
+                            "type": "decision",
+                            "children": [
+                                {
+                                    "name": "My business was hit by a cyber-attack in the last year.",
+                                    "type": "decision",
+                                    "children": [
+                                        {
+                                            "name": "After the attack, we were able to bounce back without too much trouble.",
+                                            "type": "answer",
+                                            "children": [
+                                                {
+                                                    "name": "Strengthen cyber security controls.",
+                                                    "type": "outcome",
+                                                    "url": "recommendations.html",
+                                                    "recommendations": ["strengthen-cyber-controls"]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "It was really hard to get back on track after the cyber-attack.",
+                                            "type": "decision",
+                                            "children": [
+                                                {
+                                                    "name": "I've spoken to an insurance expert to learn what options are available and how much it might cost",
+                                                    "type": "decision",
+                                                    "children": [
+                                                        {
+                                                            "name": "My business can afford to pay for cyber insurance.",
+                                                            "type": "answer",
+                                                            "children": [
+                                                                {
+                                                                    "name": "Obtain cyber insurance to fortify your cyber posture",
+                                                                    "type": "outcome",
+                                                                    "url": "recommendations.html",
+                                                                    "recommendations": ["obtain-cyber-insurance-fortify"]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "name": "We currently can't afford to pay for cyber insurance",
+                                                            "type": "answer",
+                                                            "children": [
+                                                                {
+                                                                    "name": "Strengthen cyber security controls before considering insurance.",
+                                                                    "type": "outcome",
+                                                                    "url": "recommendations.html",
+                                                                    "recommendations": ["strengthen-controls-before-insurance"]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "I haven't yet talked to anyone about cyber insurance options.",
+                                                    "type": "answer",
+                                                    "children": [
+                                                        {
+                                                            "name": "Consult a broker to learn the insurance options and costs.",
+                                                            "type": "outcome",
+                                                            "url": "recommendations.html",
+                                                            "recommendations": ["consult-broker"]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "We haven’t had any security incidents, near-misses, or suspicious activity in the past year.",
+                                    "type": "decision",
+                                    "children": [
+                                        {
+                                            "name": "We've practiced what to do if we get attacked online.",
+                                            "type": "decision",
+                                            "children": [
+                                                {
+                                                    "name": "I (or someone in my business) knows enough about IT to fix things if something goes wrong.",
+                                                    "type": "decision",
+                                                    "children": [
+                                                        {
+                                                            "name": "We are required by regulators, clients, or partners to have cyber insurance",
+                                                            "type": "answer",
+                                                            "children": [
+                                                                {
+                                                                    "name": "Obtain cyber insurance to fortify your cyber posture",
+                                                                    "type": "outcome",
+                                                                    "url": "recommendations.html",
+                                                                    "recommendations": ["obtain-cyber-insurance-fortify"]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "name": "No one we work with has asked us to get cyber insurance.",
+                                                            "type": "answer",
+                                                            "children": [
+                                                                {
+                                                                    "name": "Carry out continuous evaluation and assessment of your cyber threats.",
+                                                                    "type": "outcome",
+                                                                    "url": "recommendations.html",
+                                                                    "recommendations": ["continuous-cyber-assessment"]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "We don't have the skills to quickly fix problems caused by a cyber-attack.",
+                                                    "type": "decision",
+                                                    "children": [
+                                                        {
+                                                            "name": "I've spoken to an insurance expert to learn what options are available and how much it might cost",
+                                                            "type": "decision",
+                                                            "children": [
+                                                                {
+                                                                    "name": "My business can afford to pay for cyber insurance",
+                                                                    "type": "answer",
+                                                                    "children": [
+                                                                        {
+                                                                            "name": "Obtain cyber insurance to fortify your cyber posture",
+                                                                            "type": "outcome",
+                                                                            "url": "recommendations.html",
+                                                                            "recommendations": ["obtain-cyber-insurance-fortify"]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "name": "We currently can't afford to pay for cyber insurance",
+                                                                    "type": "answer",
+                                                                    "children": [
+                                                                        {
+                                                                            "name": "Strengthen and monitor existing cyber security controls",
+                                                                            "type": "outcome",
+                                                                            "url": "recommendations.html",
+                                                                            "recommendations": ["strengthen-monitor-controls"]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "name": "I haven't yet talked to anyone about cyber insurance options.",
+                                                            "type": "answer",
+                                                            "children": [
+                                                                {
+                                                                    "name": "Consult a broker to learn the insurance options and costs.",
+                                                                    "type": "outcome",
+                                                                    "url": "recommendations.html",
+                                                                    "recommendations": ["consult-broker"]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "We've never tried out our plan for handling a cyber-attack.",
+                                            "type": "answer",
+                                            "children": [
+                                                {
+                                                    "name": "Test your recovery plan before making a conclusion",
+                                                    "type": "outcome",
+                                                    "url": "recommendations.html",
+                                                    "recommendations":["test-recovery-plan"]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "I haven't checked what online threats could affect my business.",
+                            "type": "decision",
+                            "children": [
+                                {
+                                    "name": "My business was hit by a cyber-attack in the last year.",
+                                    "type": "decision",
+                                    "children": [
+                                        {
+                                            "name": "After the attack, we were able to bounce back without too much trouble.",
+                                            "type": "answer",
+                                            "children": [
+                                                {
+                                                    "name": "Strengthen cyber security controls.",
+                                                    "type": "outcome",
+                                                    "url": "recommendations.html",
+                                                    "recommendations": ["strengthen-cyber-controls"]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "It was really hard to get back on track after the cyber-attack.",
+                                            "type": "decision",
+                                            "children": [
+                                                {
+                                                    "name": "I've spoken to an insurance expert to learn what options are available and how much it might cost",
+                                                    "type": "decision",
+                                                    "children": [
+                                                        {
+                                                            "name": "My business can afford to pay for cyber insurance.",
+                                                            "type": "answer",
+                                                            "children": [
+                                                                {
+                                                                    "name": "Obtain cyber insurance to fortify your cyber posture",
+                                                                    "type": "outcome",
+                                                                    "url": "recommendations.html",
+                                                                    "recommendations": ["obtain-cyber-insurance-fortify"]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "name": "We currently can't afford to pay for cyber insurance",
+                                                            "type": "answer",
+                                                            "children": [
+                                                                {
+                                                                    "name": "Strengthen cyber security controls before considering insurance.",
+                                                                    "type": "outcome",
+                                                                    "url": "recommendations.html",
+                                                                    "recommendations": ["strengthen-controls-before-insurance"]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "I haven't yet talked to anyone about cyber insurance options.",
+                                                    "type": "answer",
+                                                    "children": [
+                                                        {
+                                                            "name": "Consult a broker to learn the insurance options and costs.",
+                                                            "type": "outcome",
+                                                            "url": "recommendations.html",
+                                                            "recommendations": ["consult-broker"]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "We haven’t had any security incidents, near-misses, or suspicious activity in the past year.",
+                                    "type": "decision",
+                                    "children": [
+                                        {
+                                            "name": "We've practiced what to do if we get attacked online.",
+                                            "type": "decision",
+                                            "children": [
+                                                {
+                                                    "name": "I (or someone in my business) knows enough about IT to fix things if something goes wrong.",
+                                                    "type": "decision",
+                                                    "children": [
+                                                        {
+                                                            "name": "We are required by regulators, clients, or partners to have cyber insurance",
+                                                            "type": "answer",
+                                                            "children": [
+                                                                {
+                                                                    "name": "Obtain cyber insurance to fortify your cyber posture",
+                                                                    "type": "outcome",
+                                                                    "url": "recommendations.html",
+                                                                    "recommendations": ["obtain-cyber-insurance-fortify"]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "name": "No one we work with has asked us to get cyber insurance.",
+                                                            "type": "answer",
+                                                            "children": [
+                                                                {
+                                                                    "name": "Carry out continuous evaluation and assessment of your cyber threats.",
+                                                                    "type": "outcome",
+                                                                    "url": "recommendations.html",
+                                                                    "recommendations": ["continuous-cyber-assessment"]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "We don't have the skills to quickly fix problems caused by a cyber-attack.",
+                                                    "type": "decision",
+                                                    "children": [
+                                                        {
+                                                            "name": "I've spoken to an insurance expert to learn what options are available and how much it might cost",
+                                                            "type": "decision",
+                                                            "children": [
+                                                                {
+                                                                    "name": "My business can afford to pay for cyber insurance",
+                                                                    "type": "answer",
+                                                                    "children": [
+                                                                        {
+                                                                            "name": "Obtain cyber insurance to fortify your cyber posture",
+                                                                            "type": "outcome",
+                                                                            "url": "recommendations.html",
+                                                                            "recommendations": ["obtain-cyber-insurance-fortify"]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "name": "We currently can't afford to pay for cyber insurance",
+                                                                    "type": "answer",
+                                                                    "children": [
+                                                                        {
+                                                                            "name": "Strengthen and monitor existing cyber security controls",
+                                                                            "type": "outcome",
+                                                                            "url": "recommendations.html",
+                                                                            "recommendations": ["strengthen-monitor-controls"]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "name": "I haven't yet talked to anyone about cyber insurance options.",
+                                                            "type": "answer",
+                                                            "children": [
+                                                                {
+                                                                    "name": "Consult a broker to learn the insurance options and costs.",
+                                                                    "type": "outcome",
+                                                                    "url": "recommendations.html",
+                                                                    "recommendations": ["consult-broker"]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "We've never tried out our plan for handling a cyber-attack.",
+                                            "type": "answer",
+                                            "children": [
+                                                {
+                                                    "name": "Test your recovery plan before making a conclusion",
+                                                    "type": "outcome",
+                                                    "url": "recommendations.html",
+                                                    "recommendations": ["test-recovery-plan"]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "We do not use technology in our business preparations.",
+            "type": "answer",
+            "children": [
+                {
+                    "name": "Cyber insurance may not be a priority at this point.",
+                    "type": "outcome",
+                    "url": "recommendations.html",
+                    "recommendations": ["no-cyber-insurance-needed"]
+                }
+            ]
+        }
+    ]
+} 
